@@ -83,8 +83,7 @@ game_over_background = pygame.image.load("sddefault.jpg").convert()
 game_over_background = pygame.transform.scale(game_over_background, (900, 555))
 
 # asl recognition variables
-alphabet = ['V', 'C', 'G', 'I', 'O', 'Y']
-alphabet2 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 letter_given = False
 letter = ""
 letters_assigned = []
