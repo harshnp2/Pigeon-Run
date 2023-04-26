@@ -4,7 +4,7 @@ import cv2 as cv
 import random
 
 
-rf = Roboflow(api_key="kQE5W7nH700WcHLhL9TN")
+rf = Roboflow(api_key="YOUR API KEY")
 project = rf.workspace().project("american-sign-language-letters")
 model = project.version(6).model
 
